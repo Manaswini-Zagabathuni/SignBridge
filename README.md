@@ -30,7 +30,7 @@ Most sign language apps do **one thing** - either recognize signs OR display ani
 ##  Features
 
 -  **Real-time ASL Recognition** - MediaPipe Hands tracks 21 hand landmarks per frame
--  **TensorFlow.js Model** - Classifies ASL letters (A–Z) and common words
+-  **TensorFlow.js Model** - Classifies ASL letters (A-Z) and common words
 -  **Animated Sign Avatar** - 3D avatar signs back to the deaf user
 -  **Speech Output** - Recognized signs are spoken aloud via Web Speech API
 -  **Voice Input** - Hearing users can speak; text is converted to avatar signs
