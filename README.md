@@ -18,7 +18,7 @@
 
 ## What Makes SignBridge Unique?
 
-Most sign language apps do **one thing** — either recognize signs OR display animations. SignBridge does **both, simultaneously, in one interface**:
+Most sign language apps do **one thing** - either recognize signs OR display animations. SignBridge does **both, simultaneously, in one interface**:
 
 | Direction | Who Benefits | How It Works |
 |---|---|---|
@@ -29,15 +29,15 @@ Most sign language apps do **one thing** — either recognize signs OR display a
 
 ##  Features
 
--  **Real-time ASL Recognition** — MediaPipe Hands tracks 21 hand landmarks per frame
--  **TensorFlow.js Model** — Classifies ASL letters (A–Z) and common words
--  **Animated Sign Avatar** — 3D avatar signs back to the deaf user
--  **Speech Output** — Recognized signs are spoken aloud via Web Speech API
--  **Voice Input** — Hearing users can speak; text is converted to avatar signs
--  **Confidence Score** — Visual indicator of model certainty per prediction
--  **Sign Learning Sidebar** — Shows the sign being performed so hearing users learn passively
--  **Conversation History** — Full session transcripts saved in MongoDB
--  **Export Transcript** — Download conversation as a text file
+-  **Real-time ASL Recognition** - MediaPipe Hands tracks 21 hand landmarks per frame
+-  **TensorFlow.js Model** - Classifies ASL letters (A–Z) and common words
+-  **Animated Sign Avatar** - 3D avatar signs back to the deaf user
+-  **Speech Output** - Recognized signs are spoken aloud via Web Speech API
+-  **Voice Input** - Hearing users can speak; text is converted to avatar signs
+-  **Confidence Score** - Visual indicator of model certainty per prediction
+-  **Sign Learning Sidebar** - Shows the sign being performed so hearing users learn passively
+-  **Conversation History** - Full session transcripts saved in MongoDB
+-  **Export Transcript** - Download conversation as a text file
 
 ---
 
@@ -45,16 +45,16 @@ Most sign language apps do **one thing** — either recognize signs OR display a
 
 ### Frontend
 - **React 18** + Vite
-- **MediaPipe Hands** — hand landmark detection
-- **TensorFlow.js** — in-browser ASL classification
-- **Three.js** — 3D signing avatar
-- **Web Speech API** — text-to-speech & speech-to-text
-- **TailwindCSS** — styling
+- **MediaPipe Hands** - hand landmark detection
+- **TensorFlow.js** - in-browser ASL classification
+- **Three.js** - 3D signing avatar
+- **Web Speech API** - text-to-speech & speech-to-text
+- **TailwindCSS** - styling
 
 ### Backend
-- **Python + Flask** — REST API
-- **MongoDB + PyMongo** — conversation history storage
-- **Flask-CORS** — cross-origin support
+- **Python + Flask** - REST API
+- **MongoDB + PyMongo** - conversation history storage
+- **Flask-CORS** - cross-origin support
 
 ---
 
@@ -109,7 +109,7 @@ signbridge/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/signbridge.git
+git clone https://github.com/Manaswini-Zagabathuni/signbridge.git
 cd signbridge
 ```
 
