@@ -1,4 +1,4 @@
-# 🤟 SignBridge — Bidirectional Sign Language Communication Platform
+# SignBridge — Bidirectional Sign Language Communication Platform
 
 <div align="center">
 
@@ -16,32 +16,32 @@
 
 ---
 
-## 🌟 What Makes SignBridge Unique?
+## What Makes SignBridge Unique?
 
 Most sign language apps do **one thing** — either recognize signs OR display animations. SignBridge does **both, simultaneously, in one interface**:
 
 | Direction | Who Benefits | How It Works |
 |---|---|---|
-| 🤟 Sign → Text/Speech | Hearing person | Camera detects ASL hand landmarks → TensorFlow.js classifies → Text displayed + spoken aloud |
-| 💬 Text/Speech → Sign Avatar | Deaf person | Hearing person types or speaks → 3D avatar performs the corresponding signs |
+|  Sign → Text/Speech | Hearing person | Camera detects ASL hand landmarks → TensorFlow.js classifies → Text displayed + spoken aloud |
+|  Text/Speech → Sign Avatar | Deaf person | Hearing person types or speaks → 3D avatar performs the corresponding signs |
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎥 **Real-time ASL Recognition** — MediaPipe Hands tracks 21 hand landmarks per frame
-- 🤖 **TensorFlow.js Model** — Classifies ASL letters (A–Z) and common words
-- 🧍 **Animated Sign Avatar** — 3D avatar signs back to the deaf user
-- 🔊 **Speech Output** — Recognized signs are spoken aloud via Web Speech API
-- 🎤 **Voice Input** — Hearing users can speak; text is converted to avatar signs
-- 📊 **Confidence Score** — Visual indicator of model certainty per prediction
-- 📖 **Sign Learning Sidebar** — Shows the sign being performed so hearing users learn passively
-- 💾 **Conversation History** — Full session transcripts saved in MongoDB
-- 📁 **Export Transcript** — Download conversation as a text file
+-  **Real-time ASL Recognition** — MediaPipe Hands tracks 21 hand landmarks per frame
+-  **TensorFlow.js Model** — Classifies ASL letters (A–Z) and common words
+-  **Animated Sign Avatar** — 3D avatar signs back to the deaf user
+-  **Speech Output** — Recognized signs are spoken aloud via Web Speech API
+-  **Voice Input** — Hearing users can speak; text is converted to avatar signs
+-  **Confidence Score** — Visual indicator of model certainty per prediction
+-  **Sign Learning Sidebar** — Shows the sign being performed so hearing users learn passively
+-  **Conversation History** — Full session transcripts saved in MongoDB
+-  **Export Transcript** — Download conversation as a text file
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** + Vite
@@ -58,8 +58,7 @@ Most sign language apps do **one thing** — either recognize signs OR display a
 
 ---
 
-## 📁 Project Structure
-
+##  Project Structure
 ```
 signbridge/
 ├── frontend/
@@ -100,7 +99,7 @@ signbridge/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -135,7 +134,7 @@ Visit `http://localhost:5173` in your browser and allow camera access.
 
 ---
 
-## 🧠 How the ASL Model Works
+##  How the ASL Model Works
 
 1. **MediaPipe Hands** detects 21 hand landmarks (x, y, z coordinates) per frame
 2. Landmarks are **normalized** relative to wrist position for scale/position invariance
@@ -145,7 +144,7 @@ Visit `http://localhost:5173` in your browser and allow camera access.
 
 ---
 
-## 📊 Model Architecture
+##  Model Architecture
 
 ```
 Input: 63 features (21 landmarks × 3 axes)
@@ -157,7 +156,7 @@ Input: 63 features (21 landmarks × 3 axes)
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Add support for full ASL words (not just letters)
 - [ ] Two-user video call mode with real-time translation overlay
@@ -167,26 +166,11 @@ Input: 63 features (21 landmarks × 3 axes)
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Please open an issue first to discuss what you'd like to change.
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-## 👩‍💻 Author
+##  Author
 
 **Manaswini Zagabathuni**  
 MS Computer Science, Indiana University Bloomington  
-[LinkedIn](https://linkedin.com/in/manaswini-zagabathuni-8456a3297) · [GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](https://linkedin.com/in/manaswini-zagabathuni-8456a3297)
 
----
 
-<div align="center">
-Made with 🤟 to bridge communication gaps
-</div>
