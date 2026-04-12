@@ -1,4 +1,4 @@
-# SignBridge — Bidirectional Sign Language Communication Platform
+# SignBridge - Bidirectional Sign Language Communication Platform
 
 <div align="center">
 
