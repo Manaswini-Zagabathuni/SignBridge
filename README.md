@@ -1,7 +1,7 @@
 # SignBridge - Bidirectional Sign Language Communication Platform
 
 <div align="center">
-
+ 
 ![SignBridge Banner](https://img.shields.io/badge/SignBridge-Two--Way%20ASL%20Communication-6C63FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
